@@ -273,3 +273,61 @@ footer {
 }
 /* .next:hover.lang {
 } */
+.settings {
+  width: 250px;
+  height: 240px;
+  transform: translateX(-270px);
+  /* transform: translateY(100px); */
+  margin-top: 300px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  position: relative;
+  padding: 10px 10px;
+  display: none;
+}
+.afterr {
+  position: absolute;
+  left: 38px;
+  top: 42px;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(59, 221, 83);
+  border: 3px solid white;
+}
+.name-info {
+  display: flex;
+  flex-direction: column;
+}
+.name-email {
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+}
+.name-email-pic {
+  margin-top: 10px;
+}
+.email {
+  color: gray;
+}
+.profilei:hover {
+  color: rgb(92, 92, 242);
+  cursor: pointer;
+}
+.signout:hover {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+.profilei {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.signout {
+  display: flex;
+  align-items: center;
+}
+.profile-pic.name-email-pic:hover {
+  cursor: pointer;
+}
