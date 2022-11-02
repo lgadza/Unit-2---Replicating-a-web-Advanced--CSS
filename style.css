@@ -343,6 +343,18 @@ footer {
   nav a {
     display: none;
   }
+  .logo {
+    width: 50px;
+  }
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+  #bell {
+    /* width: 50px;
+    height: 50px; */
+    background-color: lightgray;
+  }
   .drop-down {
     display: none;
     /* color: rgb(92, 92, 242); */
@@ -351,39 +363,71 @@ footer {
     display: block;
   }
   nav {
-    margin: 8px;
+    /* margin: 8px; */
   }
   .acount-pic {
-    margin-left: 70%;
+    margin-left: 65%;
   }
   #welcome {
     min-width: 695px;
-    height: 500px;
+    height: 900px;
     position: relative;
-    /* margin-left: 20px; */
+    margin-top: 50px;
   }
-  #hero-img.hero-img {
+  #hero-img {
     position: absolute;
-    /* top: 50; */
-    left: 54%;
-    bottom: 0;
+    /* top:   0; */
+    left: 0%;
+    bottom: 0 !important;
     object-fit: cover;
-    height: 50%;
+    height: 60%;
+    transform: translateY(380px);
   }
   .communite {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
   }
   .communi {
     width: 100%;
     margin: 8px 0;
+    height: 100px;
   }
   .info-communite {
-    font-size: 16px;
+    font-size: 20px;
     font-family: sans-serif;
   }
-  h4 {
-    font-size: 30px;
+  .h4 {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .welcome-p {
+    font-size: 28px;
+    /* text-align: justify; */
+  }
+  .welcome-p br {
+    display: none;
+  }
+  .courses-btn {
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+  }
+  .instructor-btn {
+    width: 230px;
+    height: 70px;
+    font-size: 22px;
+  }
+  .content {
+    width: 720px;
+  }
+  .recomend {
+    width: 100%;
+  }
+  .lang {
+    width: 50%;
   }
 }
